@@ -14,10 +14,12 @@ struct ContentView: View {
     var body: some View {
         NavigationStack{
             ZStack {
+                
                 Color("darkGreen")
                     .ignoresSafeArea()
                 VStack {
                     //                    .background(Rectangle() .foregroundColor(Color(hue: 0.369, saturation: 0.647, brightness: 0.423, opacity: 0.0)))
+                    Text("hello")
                     HStack {
                         Image("miniIcon2")
                             .resizable(resizingMode: .stretch)
