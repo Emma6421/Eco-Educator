@@ -16,6 +16,7 @@
 		BD8A934E2A6740B300D0E2B2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8A934D2A6740B300D0E2B2 /* ContentView.swift */; };
 		BD8A93502A6740BC00D0E2B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD8A934F2A6740BC00D0E2B2 /* Assets.xcassets */; };
 		BD8A93532A6740BC00D0E2B2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD8A93522A6740BC00D0E2B2 /* Preview Assets.xcassets */; };
+		BDD68C632A68578C00E16020 /* Art.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD68C622A68578C00E16020 /* Art.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		BD8A934D2A6740B300D0E2B2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BD8A934F2A6740BC00D0E2B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD8A93522A6740BC00D0E2B2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BDD68C622A68578C00E16020 /* Art.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Art.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 			children = (
 				BD8A934B2A6740B300D0E2B2 /* Eco_EducatorApp.swift */,
 				BD8A934D2A6740B300D0E2B2 /* ContentView.swift */,
+				BDD68C622A68578C00E16020 /* Art.swift */,
 				BD731DCD2A674AD70087942E /* Trivia.swift */,
 				BD731DCB2A674AC10087942E /* Reduce.swift */,
 				BD731DC92A674AAA0087942E /* Animals.swift */,
@@ -155,6 +158,7 @@
 				BD731DCA2A674AAA0087942E /* Animals.swift in Sources */,
 				BD731DCC2A674AC10087942E /* Reduce.swift in Sources */,
 				BD731DC62A67479C0087942E /* ClimateChange.swift in Sources */,
+				BDD68C632A68578C00E16020 /* Art.swift in Sources */,
 				BD731DC82A674A240087942E /* Environment.swift in Sources */,
 				BD731DCE2A674AD70087942E /* Trivia.swift in Sources */,
 				BD8A934E2A6740B300D0E2B2 /* ContentView.swift in Sources */,

@@ -8,13 +8,62 @@
 import SwiftUI
 
 struct Animals: View {
+    @State private var presentAlert = false
+    @State private var presentAlert2 = false
+    @State private var presentAlert3 = false
+    @State private var presentAlert4 = false
     var body: some View {
-        Text("Animals")
-    }
-}
+        ZStack {
+            VStack {
+                
+                Text("Animals")
+                    .font(.largeTitle)
+                Text("Climate change has affected numerous animal species across the world. Here are some examples:")
+                    .padding()
+                Image("cuteelephant")
+                    .resizable(resizingMode: .stretch)
+                    .aspectRatio(contentMode: .fit)
+                Button("Elephants") {
+                    presentAlert = true
+                }
 
-struct Animals_Previews: PreviewProvider {
-    static var previews: some View {
-        Animals()
+                
+                
+                Image("seaturtle")
+                    .resizable(resizingMode: .stretch)
+                    .aspectRatio(contentMode: .fit)
+                Button("Sea Turtles") {
+                    presentAlert2 = true
+                }
+                Image("panda")
+                    .resizable(resizingMode: .stretch)
+                    .aspectRatio(contentMode: .fit)
+                
+                Button("Pandas") {
+                    presentAlert3 = true
+                }
+                Image("polarbear")
+                    .resizable(resizingMode: .stretch)
+                    .aspectRatio(contentMode: .fit)
+                Button("Polar Bears") {
+                    presentAlert4 = true
+                }
+                
+                
+            }
+        }
+        .alert("Changes in rainfall patterns impact vegetation growth and the availability of water sources, causing changes in the distribution and abundance of food resources for elephants. This can potentially lead to conflicts with humans as they search for alternative food and water sources.", isPresented: $presentAlert, actions: {})
+        .alert("Changes in ocean currents disrupt sea turtles' ability to disperse and find food sources, while coral reef degradation reduces access to foraging grounds. Warmer temperatures can lead to imbalanced sex ratios in hatchlings, affecting population dynamics.", isPresented: $presentAlert2, actions: {})
+        .alert("Bamboo, a vital part of the panda's diet, is sensitive to changes in temperature and precipitation patterns. Alterations in these factors can affect the growth, quality, and availability of bamboo and therefore impacts the panda population.", isPresented: $presentAlert3, actions: {})
+        .alert("As sea ice melts due to rising temperatures, polar bears lose their hunting platforms and access to prey, affecting their ability to find food and raise their young.", isPresented: $presentAlert4, actions: {})
+
+
+
+    }
+    
+    struct Animals_Previews: PreviewProvider {
+        static var previews: some View {
+            Animals()
+        }
     }
 }
