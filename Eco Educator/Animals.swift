@@ -22,7 +22,7 @@ struct Animals: View {
                     .font(.largeTitle)
                     .fontWeight(.bold)
                     .foregroundColor(Color.white)
-                Text("Climate change has affected numerous animal species across the world. Here are some examples:")
+                Text("Climate change has affected numerous animal species across the world. Click each button for examples:")
                     .fontWeight(.bold)
                     .foregroundColor(Color.white)
                     .padding()
@@ -32,32 +32,52 @@ struct Animals: View {
                     Image("cuteelephant")
                         .resizable(resizingMode: .stretch)
                         .aspectRatio(contentMode: .fit)
+                        .cornerRadius(15)
+                        .padding()
                     
                     Image("PandA 1")
                         .resizable(resizingMode: .stretch)
                         .aspectRatio(contentMode: .fit)
+                        .cornerRadius(15)
+                        .padding()
                 }
                 
                 HStack {
                     Button("Elephants") {
                         presentAlert = true
                     }
+                    .padding()
+                    .foregroundColor(Color.white)
+                    .buttonStyle(.borderedProminent)
+                    .tint(.gray)
                     Spacer()
-                        
+                    
+                    .underline()
+
                        
                     Button("Pandas") {
                         presentAlert3 = true
                     }
+                    .padding()
+                    .foregroundColor(Color.white)
+                    .buttonStyle(.borderedProminent)
+                    .tint(.gray)
+                    
+                    
                 }
                 
                 HStack {
                     Image("seaturtle")
                         .resizable(resizingMode: .stretch)
                         .aspectRatio(contentMode: .fit)
+                        .cornerRadius(15)
+                        .padding()
                     
                     Image("polarbear")
                         .resizable(resizingMode: .stretch)
                         .aspectRatio(contentMode: .fit)
+                        .cornerRadius(15)
+                        .padding()
                 }
                 
                 
@@ -65,11 +85,28 @@ struct Animals: View {
                     Button("Sea Turtles") {
                         presentAlert2 = true
                     }
+                    .padding()
+                    .foregroundColor(Color.white)
+                    .buttonStyle(.borderedProminent)
+                    .tint(.gray)
                     Spacer()
+                    .underline()
+                    
                     
                     Button("Polar Bears") {
                         presentAlert4 = true
                     }
+                    /*.padding()
+                    .foregroundColor(Color.white)
+                    .buttonStyle(.borderedProminent)
+                    .foregroundColor(Color.white)
+                    .underline()*/
+                    .padding()
+                    .foregroundColor(Color.white)
+                    .buttonStyle(.borderedProminent)
+                    .tint(.gray)
+
+                    
                 }
                 
             }
