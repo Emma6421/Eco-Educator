@@ -14,9 +14,6 @@ struct ContentView: View {
     var body: some View {
         NavigationStack{
             VStack {
-                //Button(action: Trivia()) {
-                    //Text("Trivia")
-                //}
 
                 Text("EcoEducator")
                     .font(.title)
