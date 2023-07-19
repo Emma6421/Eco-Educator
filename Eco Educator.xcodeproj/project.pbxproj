@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD731DC62A67479C0087942E /* ClimateChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD731DC52A67479C0087942E /* ClimateChange.swift */; };
+		BD731DC82A674A240087942E /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD731DC72A674A240087942E /* Environment.swift */; };
+		BD731DCA2A674AAA0087942E /* Animals.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD731DC92A674AAA0087942E /* Animals.swift */; };
+		BD731DCC2A674AC10087942E /* Reduce.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD731DCB2A674AC10087942E /* Reduce.swift */; };
+		BD731DCE2A674AD70087942E /* Trivia.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD731DCD2A674AD70087942E /* Trivia.swift */; };
 		BD8A934C2A6740B300D0E2B2 /* Eco_EducatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8A934B2A6740B300D0E2B2 /* Eco_EducatorApp.swift */; };
 		BD8A934E2A6740B300D0E2B2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8A934D2A6740B300D0E2B2 /* ContentView.swift */; };
 		BD8A93502A6740BC00D0E2B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD8A934F2A6740BC00D0E2B2 /* Assets.xcassets */; };
@@ -14,6 +19,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BD731DC52A67479C0087942E /* ClimateChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimateChange.swift; sourceTree = "<group>"; };
+		BD731DC72A674A240087942E /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
+		BD731DC92A674AAA0087942E /* Animals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animals.swift; sourceTree = "<group>"; };
+		BD731DCB2A674AC10087942E /* Reduce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reduce.swift; sourceTree = "<group>"; };
+		BD731DCD2A674AD70087942E /* Trivia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trivia.swift; sourceTree = "<group>"; };
 		BD8A93482A6740B300D0E2B2 /* Eco Educator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Eco Educator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD8A934B2A6740B300D0E2B2 /* Eco_EducatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Eco_EducatorApp.swift; sourceTree = "<group>"; };
 		BD8A934D2A6740B300D0E2B2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +63,11 @@
 			children = (
 				BD8A934B2A6740B300D0E2B2 /* Eco_EducatorApp.swift */,
 				BD8A934D2A6740B300D0E2B2 /* ContentView.swift */,
+				BD731DCD2A674AD70087942E /* Trivia.swift */,
+				BD731DCB2A674AC10087942E /* Reduce.swift */,
+				BD731DC92A674AAA0087942E /* Animals.swift */,
+				BD731DC72A674A240087942E /* Environment.swift */,
+				BD731DC52A67479C0087942E /* ClimateChange.swift */,
 				BD8A934F2A6740BC00D0E2B2 /* Assets.xcassets */,
 				BD8A93512A6740BC00D0E2B2 /* Preview Content */,
 			);
@@ -137,6 +152,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD731DCA2A674AAA0087942E /* Animals.swift in Sources */,
+				BD731DCC2A674AC10087942E /* Reduce.swift in Sources */,
+				BD731DC62A67479C0087942E /* ClimateChange.swift in Sources */,
+				BD731DC82A674A240087942E /* Environment.swift in Sources */,
+				BD731DCE2A674AD70087942E /* Trivia.swift in Sources */,
 				BD8A934E2A6740B300D0E2B2 /* ContentView.swift in Sources */,
 				BD8A934C2A6740B300D0E2B2 /* Eco_EducatorApp.swift in Sources */,
 			);
