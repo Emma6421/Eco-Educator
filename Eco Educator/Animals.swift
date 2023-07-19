@@ -14,41 +14,63 @@ struct Animals: View {
     @State private var presentAlert4 = false
     var body: some View {
         ZStack {
+            Color("darkbrown")
+                .ignoresSafeArea()
             VStack {
                 
                 Text("Animals")
                     .font(.largeTitle)
+                    .fontWeight(.bold)
+                    .foregroundColor(Color.white)
                 Text("Climate change has affected numerous animal species across the world. Here are some examples:")
+                    .fontWeight(.bold)
+                    .foregroundColor(Color.white)
                     .padding()
-                Image("cuteelephant")
-                    .resizable(resizingMode: .stretch)
-                    .aspectRatio(contentMode: .fit)
-                Button("Elephants") {
-                    presentAlert = true
-                }
-
                 
-                
-                Image("seaturtle")
-                    .resizable(resizingMode: .stretch)
-                    .aspectRatio(contentMode: .fit)
-                Button("Sea Turtles") {
-                    presentAlert2 = true
-                }
-                Image("panda")
-                    .resizable(resizingMode: .stretch)
-                    .aspectRatio(contentMode: .fit)
-                
-                Button("Pandas") {
-                    presentAlert3 = true
-                }
-                Image("polarbear")
-                    .resizable(resizingMode: .stretch)
-                    .aspectRatio(contentMode: .fit)
-                Button("Polar Bears") {
-                    presentAlert4 = true
+               
+                HStack{
+                    Image("cuteelephant")
+                        .resizable(resizingMode: .stretch)
+                        .aspectRatio(contentMode: .fit)
+                    
+                    Image("PandA 1")
+                        .resizable(resizingMode: .stretch)
+                        .aspectRatio(contentMode: .fit)
                 }
                 
+                HStack {
+                    Button("Elephants") {
+                        presentAlert = true
+                    }
+                    Spacer()
+                        
+                       
+                    Button("Pandas") {
+                        presentAlert3 = true
+                    }
+                }
+                
+                HStack {
+                    Image("seaturtle")
+                        .resizable(resizingMode: .stretch)
+                        .aspectRatio(contentMode: .fit)
+                    
+                    Image("polarbear")
+                        .resizable(resizingMode: .stretch)
+                        .aspectRatio(contentMode: .fit)
+                }
+                
+                
+                HStack {
+                    Button("Sea Turtles") {
+                        presentAlert2 = true
+                    }
+                    Spacer()
+                    
+                    Button("Polar Bears") {
+                        presentAlert4 = true
+                    }
+                }
                 
             }
         }

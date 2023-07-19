@@ -18,7 +18,21 @@ struct ContentView: View {
                     .ignoresSafeArea()
                 VStack {
                     //                    .background(Rectangle() .foregroundColor(Color(hue: 0.369, saturation: 0.647, brightness: 0.423, opacity: 0.0)))
-                    
+                    HStack {
+                        Image("miniIcon2")
+                            .resizable(resizingMode: .stretch)
+                            .aspectRatio(contentMode: .fit)
+                            .frame(width: 50.0, height: 50.0)
+                           
+                            
+                        Text("Environment • Animals • Alleviation • Art • Trivia • Facts")
+                            .font(.caption)
+                            .fontWeight(.bold)
+                            .foregroundColor(Color.white)
+                           
+                
+   
+                    }
                     Image("iconReal")
                         .resizable(resizingMode: .stretch)
                         .aspectRatio(contentMode: .fit)
