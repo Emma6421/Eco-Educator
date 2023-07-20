@@ -19,7 +19,6 @@ struct ContentView: View {
                     .ignoresSafeArea()
                 VStack {
                     //                    .background(Rectangle() .foregroundColor(Color(hue: 0.369, saturation: 0.647, brightness: 0.423, opacity: 0.0)))
-                    Text("hello")
                     HStack {
                         Image("miniIcon2")
                             .resizable(resizingMode: .stretch)
@@ -27,12 +26,12 @@ struct ContentView: View {
                             .frame(width: 50.0, height: 50.0)
                            
                             
-                        Text("Environment • Animals • Alleviation • Art • Trivia • Facts")
+                        Text("Climate Change • Environment • Animals • Act • Art • Trivia")
                             .font(.caption)
                             .fontWeight(.bold)
                             .foregroundColor(Color.white)
-                           
-                
+
+        
    
                     }
                     Image("iconReal")
@@ -41,6 +40,7 @@ struct ContentView: View {
                         .cornerRadius(360)
                     
                     Text("At EcoEducator, we aim to raise awareness about the impact of climate change on the environment and the well-being of animals, inspiring people to become informed advocates for sustainable practices and conservation efforts. Join us in our mission to create a cleaner future for all species on planet earth.")
+                        .font(.callout)
                         .foregroundColor(Color.white)
                         .padding()
                     

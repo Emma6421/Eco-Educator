@@ -50,9 +50,11 @@ struct Environment: View {
                     }
                     .padding()
                     .foregroundColor(Color.white)
+                    .buttonStyle(.borderedProminent)
+                    .tint(.gray)
                     Spacer()
                     
-                    .underline()
+                
 
                        
                     Button("Precipitation Interruption") {
@@ -60,7 +62,9 @@ struct Environment: View {
                     }
                     .foregroundColor(Color.white)
                     .padding()
-                    .underline()
+                    .buttonStyle(.borderedProminent)
+                    .tint(.gray)
+                 
                     
                 }
                 
@@ -83,16 +87,20 @@ struct Environment: View {
                     }
                     .foregroundColor(Color.white)
                     .padding()
+                    .buttonStyle(.borderedProminent)
+                    .tint(.gray)
                     Spacer()
-                    .underline()
+                  
                     
                     
                     Button("Melting Ice") {
                         presentAlert4 = true
                     }
-                    .underline()
+                    
                     .padding()
                     .foregroundColor(Color.white)
+                    .buttonStyle(.borderedProminent)
+                    .tint(.gray)
                     
                 }
                 
