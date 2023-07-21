@@ -27,9 +27,10 @@ struct ContentView: View {
                            
                             
                         Text("Climate Change • Environment • Animals • Act • Art • Trivia")
-                            .font(.caption)
+                           // .font(.caption)
                             .fontWeight(.bold)
                             .foregroundColor(Color.white)
+                            .font(.custom("Fresca", size: 15))
 
         
    
@@ -39,10 +40,12 @@ struct ContentView: View {
                         .aspectRatio(contentMode: .fit)
                         .cornerRadius(360)
                     
-                    Text("At EcoEducator, we aim to raise awareness about the impact of climate change on the environment and the well-being of animals, inspiring people to become informed advocates for sustainable practices and conservation efforts. Join us in our mission to create a cleaner future for all species on planet earth.")
-                        .font(.callout)
+                    Text("At Eco Educator, we aim to raise awareness about the impact of climate change on the environment and the well-being of animals, inspiring people to become informed advocates for sustainable practices and conservation efforts. Join us in our mission to create a cleaner future for all species on planet earth.")
+                        //.font(.callout)
                         .foregroundColor(Color.white)
                         .padding()
+                        .font(.custom("Fresca", size: 17))
+
                     
                     
                     //                    .toolbar{
@@ -50,58 +53,70 @@ struct ContentView: View {
                     HStack{
                         NavigationLink(destination: ClimateChange()) {
                             Text("Climate \n Change")
-                                .font(.title3)
+                                //.font(.title3)
                                 .foregroundColor(Color.white)
                                 .frame(width: 120.0, height: 100.0)
                                 .background(/*@START_MENU_TOKEN@*//*@PLACEHOLDER=View@*/Color(hue: 0.478, saturation: 0.902, brightness: 0.721)/*@END_MENU_TOKEN@*/)
                                 .cornerRadius(10)
+                                .font(.custom("Fresca", size: 17))
+
                         }
                         
                         NavigationLink(destination: Environment()) {
                             Text("Environment")
-                                .font(.title3)
+                                //.font(.title3)
                                 .foregroundColor(Color.white)
                                 .frame(width: 120.0, height: 100.0)
                                 .background(/*@START_MENU_TOKEN@*//*@PLACEHOLDER=View@*/Color(hue: 0.478, saturation: 0.902, brightness: 0.721)/*@END_MENU_TOKEN@*/)
                                 .cornerRadius(10)
+                                .font(.custom("Fresca", size: 17))
+
                         }
                         
                     }
                     HStack{
                         NavigationLink(destination: Animals()) {
                             Text("Animals")
-                                .font(.title3)
+                                //.font(.title3)
                                 .foregroundColor(Color.white)
                                 .frame(width: 120.0, height: 100.0)
                                 .background(/*@START_MENU_TOKEN@*//*@PLACEHOLDER=View@*/Color(hue: 0.478, saturation: 0.902, brightness: 0.721)/*@END_MENU_TOKEN@*/)
                                 .cornerRadius(10)
+                                .font(.custom("Fresca", size: 17))
+
                             
                         }
                         NavigationLink(destination: Reduce()) {
                             Text("Take \n Action")
-                                .font(.title3)
+                                //.font(.title3)
                                 .foregroundColor(Color.white)
                                 .frame(width: 120.0, height: 100.0)
                                 .background(/*@START_MENU_TOKEN@*//*@PLACEHOLDER=View@*/Color(hue: 0.478, saturation: 0.902, brightness: 0.721)/*@END_MENU_TOKEN@*/)
                                 .cornerRadius(10)
+                                .font(.custom("Fresca", size: 17))
+
                             
                         }
                     }
                     HStack{
                         NavigationLink(destination: Art()) {
                             Text("Art")
-                                .font(.title3)
+                                //.font(.title3)
                                 .foregroundColor(Color.white)
                                 .frame(width: 120.0, height: 100.0)
                                 .background(/*@START_MENU_TOKEN@*//*@PLACEHOLDER=View@*/Color(hue: 0.478, saturation: 0.902, brightness: 0.721)/*@END_MENU_TOKEN@*/)
                                 .cornerRadius(10)
+                                .font(.custom("Fresca", size: 17))
+
                             NavigationLink(destination: Trivia()) {
                                 Text("Trivia")
-                                    .font(.title3)
+                                    //.font(.title3)
                                     .foregroundColor(Color.white)
                                     .frame(width: 120.0, height: 100.0)
                                     .background(/*@START_MENU_TOKEN@*//*@PLACEHOLDER=View@*/Color(hue: 0.478, saturation: 0.902, brightness: 0.721)/*@END_MENU_TOKEN@*/)
                                     .cornerRadius(10)
+                                    .font(.custom("Fresca", size: 17))
+
                                 
                             }
                             //.padding()

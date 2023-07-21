@@ -22,14 +22,18 @@ struct Environment: View {
             VStack {
                 
                 Text("Environment")
-                    .font(.largeTitle)
+                    //.font(.largeTitle)
                     .fontWeight(.bold)
                     .foregroundColor(Color.white)
+                    .font(.custom("Fresca", size: 35))
+
                 
-                Text("The term 'environment' refers to the overall surroundings or conditions in which living organisms, including humans, exist. Climate change has wide-ranging impacts on the environment, affecting various ecosystems, natural resources, and the delicate balance of biodiversity. Click on each button to learn how climate change impacts environments:")
+                Text("The term 'environment' refers to the overall surroundings or conditions in which living organisms exist. Climate change has wide-ranging impacts on the environment, affecting various ecosystems, natural resources, and the delicate balance of biodiversity. Click on each button to learn how climate change impacts environments:")
                     .fontWeight(.bold)
                     .foregroundColor(Color.white)
                     .padding()
+                    .font(.custom("Fresca", size: 15))
+
                 
                
                 HStack{
@@ -52,6 +56,8 @@ struct Environment: View {
                     .foregroundColor(Color.white)
                     .buttonStyle(.borderedProminent)
                     .tint(.gray)
+                    .font(.custom("Fresca", size: 17))
+
                     Spacer()
                     
                 
@@ -64,6 +70,8 @@ struct Environment: View {
                     .padding()
                     .buttonStyle(.borderedProminent)
                     .tint(.gray)
+                    .font(.custom("Fresca", size: 17))
+
                  
                     
                 }
@@ -89,6 +97,8 @@ struct Environment: View {
                     .padding()
                     .buttonStyle(.borderedProminent)
                     .tint(.gray)
+                    .font(.custom("Fresca", size: 17))
+
                     Spacer()
                   
                     
@@ -101,12 +111,14 @@ struct Environment: View {
                     .foregroundColor(Color.white)
                     .buttonStyle(.borderedProminent)
                     .tint(.gray)
+                    .font(.custom("Fresca", size: 17))
+
                     
                 }
                 
             }
         }
-        .alert("The increased ocean temperatures caused by climate change lead to coral bleaching, which has far-reaching implications for marine ecosystems, biodiversity, and coastal communities.", isPresented: $presentAlert, actions: {})
+        .alert("The increased ocean temperatures caused by climate change lead to coral bleaching, which has far-reaching implications for marine ecosystems, biodiversity, and coastal communities. Coral bleaching occurs when corals expel their symbiotic algae in response to environmental stress, leading to the loss of color and nutrients, and if prolonged, can result in coral death.", isPresented: $presentAlert, actions: {})
         .alert("Climate change disrupts precipitation patterns, leading to more intense rainfall in some regions and prolonged droughts in others. This affects the environment by impacting water availability, soil moisture, and ecosystem functioning.", isPresented: $presentAlert3, actions: {})
         .alert("Climate change is associated with an increase in the frequency and intensity of extreme weather events such as hurricanes, storms, and wildfires. These events impact the environment by causing destruction, altering ecosystems, and threatening human lives and infrastructure.", isPresented: $presentAlert2, actions: {})
         .alert("Rising temperatures caused by climate change lead to the melting of glaciers and ice caps in polar regions and mountain ranges. This results in the loss of freshwater reserves and contributes to rising sea levels, impacting coastal environments and communities.", isPresented: $presentAlert4, actions: {})

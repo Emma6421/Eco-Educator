@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD3081DF2A69E36300853BF4 /* Fresca.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD3081DE2A69E36300853BF4 /* Fresca.ttf */; };
 		BD731DC62A67479C0087942E /* ClimateChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD731DC52A67479C0087942E /* ClimateChange.swift */; };
 		BD731DC82A674A240087942E /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD731DC72A674A240087942E /* Environment.swift */; };
 		BD731DCA2A674AAA0087942E /* Animals.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD731DC92A674AAA0087942E /* Animals.swift */; };
@@ -20,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BD3081DE2A69E36300853BF4 /* Fresca.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Fresca.ttf; sourceTree = "<group>"; };
+		BD3081E02A69E39300853BF4 /* Eco-Educator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Eco-Educator-Info.plist"; sourceTree = SOURCE_ROOT; };
 		BD731DC52A67479C0087942E /* ClimateChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimateChange.swift; sourceTree = "<group>"; };
 		BD731DC72A674A240087942E /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
 		BD731DC92A674AAA0087942E /* Animals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animals.swift; sourceTree = "<group>"; };
@@ -63,6 +66,7 @@
 		BD8A934A2A6740B300D0E2B2 /* Eco Educator */ = {
 			isa = PBXGroup;
 			children = (
+				BD3081E02A69E39300853BF4 /* Eco-Educator-Info.plist */,
 				BD8A934B2A6740B300D0E2B2 /* Eco_EducatorApp.swift */,
 				BD8A934D2A6740B300D0E2B2 /* ContentView.swift */,
 				BDD68C622A68578C00E16020 /* Art.swift */,
@@ -72,6 +76,7 @@
 				BD731DC72A674A240087942E /* Environment.swift */,
 				BD731DC52A67479C0087942E /* ClimateChange.swift */,
 				BD8A934F2A6740BC00D0E2B2 /* Assets.xcassets */,
+				BD3081DE2A69E36300853BF4 /* Fresca.ttf */,
 				BD8A93512A6740BC00D0E2B2 /* Preview Content */,
 			);
 			path = "Eco Educator";
@@ -144,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD8A93532A6740BC00D0E2B2 /* Preview Assets.xcassets in Resources */,
+				BD3081DF2A69E36300853BF4 /* Fresca.ttf in Resources */,
 				BD8A93502A6740BC00D0E2B2 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,6 +299,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Eco Educator/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Eco-Educator-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -321,6 +328,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Eco Educator/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Eco-Educator-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

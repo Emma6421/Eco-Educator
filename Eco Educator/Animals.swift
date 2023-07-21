@@ -19,10 +19,14 @@ struct Animals: View {
             VStack {
                 
                 Text("Animals")
-                    .font(.largeTitle)
+                    //.font(.largeTitle)
                     .fontWeight(.bold)
                     .foregroundColor(Color.white)
+                    .font(.custom("Fresca", size: 40))
+
                 Text("Climate change has affected numerous animal species across the world. Click each button for examples:")
+                    .font(.custom("Fresca", size: 23))
+
                     .fontWeight(.bold)
                     .foregroundColor(Color.white)
                     .padding()
@@ -50,6 +54,8 @@ struct Animals: View {
                     .foregroundColor(Color.white)
                     .buttonStyle(.borderedProminent)
                     .tint(.gray)
+                    .font(.custom("Fresca", size: 17))
+
                     Spacer()
                     
                     .underline()
@@ -62,6 +68,8 @@ struct Animals: View {
                     .foregroundColor(Color.white)
                     .buttonStyle(.borderedProminent)
                     .tint(.gray)
+                    .font(.custom("Fresca", size: 17))
+
                     
                     
                 }
@@ -89,6 +97,8 @@ struct Animals: View {
                     .foregroundColor(Color.white)
                     .buttonStyle(.borderedProminent)
                     .tint(.gray)
+                    .font(.custom("Fresca", size: 17))
+
                     Spacer()
                     .underline()
                     
@@ -105,6 +115,8 @@ struct Animals: View {
                     .foregroundColor(Color.white)
                     .buttonStyle(.borderedProminent)
                     .tint(.gray)
+                    .font(.custom("Fresca", size: 17))
+
 
                     
                 }
